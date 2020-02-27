@@ -1,7 +1,6 @@
 /*
 * Conditionals, Functions, Scope, and Loops.
 */
-/*...*/
 
 let storeA = 1.40;
 let storeB = 3.40;
@@ -23,7 +22,7 @@ function compareStorePrices (storeA,storeB) {
 
 function squareNum(number) {
 	let squarded = number * number;
-	let subed = number - 19;
+	return squarded;
 }
 
 let squareNumber = squareNum(10);
